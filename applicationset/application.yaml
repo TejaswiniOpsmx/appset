@@ -9,7 +9,7 @@ spec:
         repoURL: 'https://github.com/TejaswiniOpsmx/appset.git'
         revision: HEAD
         directories:
-          - path: appse
+          - path: appset
           - path: set-apps
   template:
     metadata:

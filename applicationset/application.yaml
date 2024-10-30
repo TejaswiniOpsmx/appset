@@ -9,8 +9,8 @@ spec:
         repoURL: 'https://github.com/TejaswiniOpsmx/appset.git'
         revision: HEAD
         directories:
-          - path: appset
-          - path: set-apps
+          - path: appsets
+          - path: config
   template:
     metadata:
       name: '{{path.basename}}'

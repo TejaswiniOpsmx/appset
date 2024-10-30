@@ -10,7 +10,7 @@ spec:
         revision: HEAD
         directories:
           - path: appsets
-          - path: config
+          - path: test
   template:
     metadata:
       name: '{{path.basename}}'

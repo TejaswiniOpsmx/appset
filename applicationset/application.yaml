@@ -6,18 +6,18 @@ metadata:
 spec:
   generators:
     - git:
-        repoURL: 'https://github.com/NaveenBalagouni/argocd-training.git'
+        repoURL: 'https://github.com/TejaswiniOpsmx/appset.git'
         revision: HEAD
         directories:
-          - path: two-git
-          - path: sources-git
+          - path: appse
+          - path: set-apps
   template:
     metadata:
       name: '{{path.basename}}'
     spec:
       project: default
       source:
-        repoURL: 'https://github.com/NaveenBalagouni/argocd-training.git'
+        repoURL: 'https://github.com/TejaswiniOpsmx/appset.git'
         targetRevision: HEAD
         path: '{{path}}'
       destination:
